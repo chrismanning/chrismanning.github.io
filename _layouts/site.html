@@ -1,11 +1,15 @@
 {% include top.html %}
   <body>
+    <div id="layout">
+
+    {% include menu.html %}
     {% include header.html %}
-    <div id="main_content_wrap" class="outer">
-      {% include project_menu.html %}
-      <section id="main_content" class="inner">
-        {{content}}
-      </section>
+    <div class="content">
+      {{content}}
     </div>
+    
+    </div>
+
+  <script src="js/ui.js"></script>
   </body>
 </html>

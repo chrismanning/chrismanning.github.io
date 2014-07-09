@@ -1,0 +1,16 @@
+<!-- Menu toggle -->
+<a href="#menu" id="menuLink" class="menu-link">
+    <!-- Hamburger icon -->
+    <span></span>
+</a>
+<div id="menu">
+    <div class="pure-menu pure-menu-open">
+
+        <ul>
+            <li {% if page.title contains "About Me" %}class="pure-menu-selected"{% endif %}><a href="{{ site.url }}/">About Me</a></li>
+            <li {% if page.title contains "CV" %}class="pure-menu-selected"{% endif %}><a href="{{ site.url }}/cv">CV</a></li>
+            <li {% if page.title contains "Projects" %}class="pure-menu-selected"{% endif %}><a href="{{ site.url }}/projects">Projects</a></li>
+            <li {% if page.title contains "Contact" %}class="pure-menu-selected"{% endif %}><a href="{{ site.url }}/contact">Contact</a></li>
+        </ul>
+    </div>
+</div>
