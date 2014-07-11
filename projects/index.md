@@ -54,8 +54,11 @@ The assignment allowed free choice of programming language, as long as the langu
 It takes advantage of D's native and default thread-local storage facilities to avoid most need for explicit synchronisation.
 The assignment report can be viewed or downloaded as a PDF from [here]({{ site.url }}/images/nft.pdf), which, in combination with an application demonstration and a brief walk through the code, received a grade of 90%. The code itself was not directly graded.
 
-## Mobile Robots Assignment
+## Mobile Robotics Assignment
 
-[ARIA](http://robots.mobilerobots.com/wiki/ARIA)
+The assignment for the Mobile Robotics module was to create a controller for a particular type of robot using [ARIA](http://robots.mobilerobots.com/wiki/ARIA).
+My submission provided the following behaviours using a subsumption architecture: obstacle avoidance, edge following, wandering, and mapping.
+Also include was a Qt client for graphically viewing a map as it was assembled. See [code]({{ site.url }}/images/mobile_robots_assignment.zip).
 
-See [report]({{site.url}}/images/mobile_robots_report.pdf)
+For this assignment I received a grade of 80%.
+See the [report]({{site.url}}/images/mobile_robots_report.pdf) for full details.
