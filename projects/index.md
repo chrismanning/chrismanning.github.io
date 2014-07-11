@@ -23,6 +23,12 @@ Though neither depends on the other, jbson can work closely with the above menti
 Also part of jbson is an implementation of [JSONPath](http://goessner.net/articles/JsonPath/), which functions in a similar manner with JSON (or in this case BSON) as XPath does with XML.
 The implementation of JSONPath allows data transformations and even filtering with boolean expressions on BSON data so that complex documents can be more easily digested, and superfluous data ignored.
 
+## Executors
+
+[Executors](https://github.com/chrismanning/executors) is a C++ experiment to test some of the ideas in the now obsolete C++ standard proposals: N3562, N3731, N3785, N4032.
+This library includes `thread_pool`, a configurable `basic_loop_executor` and default alias `loop_executor`, and a `default_executor` which is simply an accessor to a static `thread_pool`.
+These classes do not use virtual functions, and are able to accept move-only types such as `packaged_task` as work.
+
 # University Assignments
 
 The following are projects that were assessed as part of my degree in Computer Science at [De Montfort University](http://www.dmu.ac.uk/).
