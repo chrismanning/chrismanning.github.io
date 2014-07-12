@@ -2,7 +2,31 @@
 layout: site
 title: Projects
 ---
-# Projects
+
+<style>
+    #toc {
+        width: auto;
+        display: inline-block;
+        float: right;
+        text-align:right;
+        margin: 10px;
+    }
+</style>
+<div class="pure-menu pure-menu-open" id="toc">
+    <ul>
+        <li><a class="pure-menu-heading" href="#projects">Personal Projects</a></li>
+        <li><a href="#ejpp">ejpp</a></li>
+        <li><a href="#jbson">jbson</a></li>
+        <li><a href="#executors">Executors</a></li>
+        <li><a href="#melo">Melosic</a></li>
+        <li><a class="pure-menu-heading" href="#uni">University Projects</a></li>
+        <li><a href="#ddvs">Dynamic Data Structure Visualisation</a></li>
+        <li><a href="#nft">nft</a></li>
+        <li><a href="#robotics">Mobile Robotics Assignment</a></li>
+    </ul>
+</div>
+
+# <a name="projects"></a>Personal Projects
 
 ## <a name="ejpp"></a>ejpp
 
