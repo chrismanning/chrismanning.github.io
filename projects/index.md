@@ -29,6 +29,20 @@ The implementation of JSONPath allows data transformations and even filtering wi
 This library includes `thread_pool`, a configurable `basic_loop_executor` and default alias `loop_executor`, and a `default_executor` which is simply an accessor to a static `thread_pool`.
 These classes do not use virtual functions, and are able to accept move-only types such as `packaged_task` as work.
 
+## Melosic
+
+Melosic is an unreleased music player that I have created over a period of several years.
+All of the above projects are used within Melosic and were once a part of it in some capacity.
+Melosic has many features expected of a music player: playlists, library, gapless playback, drag & drop, plugins, etc.
+What sets it apart is its extensibility and configurability via C++ plugins, JSON configuration files, and Qt Quick/QML; the latter is available due to its usage of Qt Quick for its user interface, though this is not connected at all to the main program logic allowing use of alternate user interfaces such as Win32, GTK+, Cocoa, curses, etc.
+
+The plugin APIs are simple, yet capable ways to either add something to the existing systems (eg. output devices, input formats), or to "listen" for certain events to provide an auxiliary service (eg. Last.fm scrobbling, song info fetching).
+This is achieved by a thread-safe mechanism similar to Qt's signals & slots system, though without the need for an additional preprocessor. These signals can utilise `shared_ptr`s & `weak_ptr`s to provide automatic disconnection of a member function (or any other that throws `bad_weak_ptr`) when an object has expired.
+
+Audio output is done via a custom [Asio](http://think-async.com/Asio) (aka Boost.Asio) interface, which allows both synchronous and asynchronous usage for low latency I/O.
+The music library is implemented using [EJDB](http://ejdb.org/) and ejpp.
+Using JSON (or BSON) with ejpp is a huge improvement to usability as it allows easy query declarations in QML (or directly in C++) so that the library can be browsed precisely how a user desires.
+
 # University Assignments
 
 The following are projects that were assessed as part of my degree in Computer Science at [De Montfort University](http://www.dmu.ac.uk/).
