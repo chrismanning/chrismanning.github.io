@@ -25,7 +25,7 @@ The implementation of JSONPath allows data transformations and even filtering wi
 
 ## Executors
 
-[Executors](https://github.com/chrismanning/executors) is a C++ experiment to test some of the ideas in the now obsolete C++ standard proposals: N3562, N3731, N3785, N4032.
+[Executors](https://github.com/chrismanning/executors) is a C++ experiment to test some of the ideas in the now obsolete (post-Rapperswil) C++ standard proposals: N3562, N3731, N3785, N4032.
 This library includes `thread_pool`, a configurable `basic_loop_executor` and default alias `loop_executor`, and a `default_executor` which is simply an accessor to a static `thread_pool`.
 These classes do not use virtual functions, and are able to accept move-only types such as `packaged_task` as work.
 
