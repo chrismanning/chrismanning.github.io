@@ -8,7 +8,6 @@ title: Projects
         width: auto;
         display: inline-block;
         float: right;
-        text-align:right;
         margin: 10px;
     }
 </style>
