@@ -11,11 +11,11 @@ title: CV
 
 ## Skills
 
-{% include skills.md %}
+{% include skills_brief.md %}
 
 ## Projects
 
-{% include projects_brief.md %}
+{% include projects.md %}
 
 ## Education
 
