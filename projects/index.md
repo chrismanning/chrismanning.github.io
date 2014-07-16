@@ -10,6 +10,12 @@ title: Projects
         float: right;
         margin: 10px;
     }
+    @media (max-width: 48em) {
+        #toc {
+            float: none;
+            margin: 0;
+        }
+    }
 </style>
 <div class="pure-menu pure-menu-open" id="toc">
     <ul>
