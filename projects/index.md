@@ -85,7 +85,6 @@ The knowledge of how to implement a compiler or interpreter was also attained fr
 The interpreter is implemented using Boost.Spirit and is actually heavily modified from one of the provided examples; much is built atop the basic design of the original example's design, including `struct`s, pointers and an accompanying simple type system.
 Unfortunately, `struct`s were limited to non-recursive data members which severely hampered the goal of the project.
 The visualisation was also very limited in both its form and function.
-Despite this, the project received a grade of 75%, mostly due to the fact that it was the project management, reports, demonstrations, etc. that were graded and not the quality of the resulting product or code.
 
 While the graphical representation is primitive and the interpreter incomplete, the core approach is perhaps worth revisiting one day to better accomplish the original goal.
 See the [final report]({{site.url}}/images/ack_final_report.pdf) for full details.
@@ -95,7 +94,7 @@ See the [final report]({{site.url}}/images/ack_final_report.pdf) for full detail
 [nft](https://github.com/chrismanning/nft) was the result of a university assignment to create a network file transfer application using a socket API and a client-server architecture.
 The assignment allowed free choice of programming language, as long as the language had a socket-base network API, and it was then decided to be written in the [D Programming Language](http://dlang.org/).
 It takes advantage of D's native and default thread-local storage facilities to avoid most need for explicit synchronisation.
-The assignment report can be viewed or downloaded as a PDF from [here]({{ site.url }}/images/nft.pdf), which, in combination with an application demonstration and a brief walk through the code, received a grade of 90%. The code itself was not directly graded.
+The assignment report, which was submitted along with an application demonstration and a brief walk through the code, can be viewed or downloaded as a PDF from [here]({{ site.url }}/images/nft.pdf). The code itself was not directly graded.
 
 ## <a name="robotics"></a>Mobile Robotics Assignment
 
@@ -103,5 +102,4 @@ The assignment for the Mobile Robotics module was to create a controller for a p
 My submission provided the following behaviours using a subsumption architecture: obstacle avoidance, edge following, wandering, and mapping.
 Also include was a Qt client for graphically viewing a map as it was assembled. See [code]({{ site.url }}/images/mobile_robots_assignment.zip).
 
-For this assignment I received a grade of 80%.
 See the [report]({{site.url}}/images/mobile_robots_report.pdf) for full details.
