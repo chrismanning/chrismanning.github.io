@@ -3,15 +3,14 @@ layout: site
 title: CV
 ---
 {% include cv_style.html %}
-# CV
 
-## Personal Statement
+{% include cv_header.md %}
 
-{% include personal_statement.md %}
+##Personal Statement
 
-## Skills
+{% include personal_statement.md %}<span>I have an understanding of the following languages, tools, and technologies:</span>
 
-{% include skills_brief.md %}
+{% include skills_brief.html %}
 
 ## Projects
 
@@ -20,6 +19,10 @@ title: CV
 ## Education
 
 {% include education.md %}
+
+## Technical Skills
+
+{% include skills.md %}
 
 ## Interests
 

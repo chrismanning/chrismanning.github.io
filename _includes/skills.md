@@ -2,7 +2,7 @@
     <div class="pure-u-1 pure-u-md-3-8">
         <h3>Programming Languages</h3>
         <dl>
-            <dt><strong>C++</strong></dt><dd>Standards: C++03, C++11, C++14</dd>
+            <dt><strong>C++</strong></dt><dd>Familiar with standards C++11 and C++14, as well as C++98 and C++03</dd>
             <dt><strong>C</strong></dt><dd>Standards: ANSI C, C99</dd>
             <dt><strong>D</strong></dt><dd>Version 2.0</dd>
             <dt><strong>Java</strong></dt><dd>Version 6</dd>
@@ -21,7 +21,7 @@
         <h3>Tools</h3>
         <dl>
             <dt><strong>git</strong></dt><dd>Combining version control with social coding through GitHub.</dd>
-            <dt><strong>CMake</strong></dt><dd>My de facto choice of build system for C/C++.</dd>
+            <dt><strong>CMake</strong></dt><dd>My first choice of build system for all but the most simple C/C++ projects.</dd>
             <dt><strong>Doxygen</strong></dt><dd>Code documentation with comments and external Markdown.</dd>
         </dl>
     </div>
