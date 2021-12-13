@@ -93,19 +93,19 @@ Unfortunately, `struct`s were limited to non-recursive data members which severe
 The visualisation was also very limited in both its form and function.
 
 While the graphical representation is primitive and the interpreter incomplete, the core approach is perhaps worth revisiting one day to better accomplish the original goal.
-See the [final report]({{site.url}}/images/ack_final_report.pdf) for full details.
+See the [final report](/images/ack_final_report.pdf) for full details.
 
 ## <a name="nft"></a>nft
 
 [nft](https://github.com/chrismanning/nft) was the result of a university assignment to create a network file transfer application using a socket API and a client-server architecture.
 The assignment allowed free choice of programming language, as long as the language had a socket-base network API, and it was then decided to be written in the [D Programming Language](https://dlang.org/).
 It takes advantage of D's native and default thread-local storage facilities to avoid most need for explicit synchronisation.
-The assignment report, which was submitted along with an application demonstration and a brief walk through the code, can be viewed or downloaded as a PDF from [here]({{ site.url }}/images/nft.pdf). The code itself was not directly graded.
+The assignment report, which was submitted along with an application demonstration and a brief walk through the code, can be viewed or downloaded as a PDF from [here](/images/nft.pdf). The code itself was not directly graded.
 
 ## <a name="robotics"></a>Mobile Robotics Assignment
 
 The assignment for the Mobile Robotics module was to create a controller for a particular type of robot using [ARIA](https://robots.mobilerobots.com/wiki/ARIA).
 My submission provided the following behaviours using a subsumption architecture: obstacle avoidance, edge following, wandering, and mapping.
-Also include was a Qt client for graphically viewing a map as it was assembled. See [code]({{ site.url }}/images/mobile_robots_assignment.zip).
+Also include was a Qt client for graphically viewing a map as it was assembled. See [code](/images/mobile_robots_assignment.zip).
 
-See the [report]({{site.url}}/images/mobile_robots_report.pdf) for full details.
+See the [report](/images/mobile_robots_report.pdf) for full details.
