@@ -35,7 +35,7 @@ title: Projects
 
 ## <a name="ejpp"></a>ejpp
 
-[ejpp](http://chrismanning.github.io/ejpp) is a C++14 wrapper for [EJDB](http://ejdb.org/), a document-store database similar to MongoDB, using BSON as its data and query format.
+[ejpp](https://chrismanning.github.io/ejpp) is a C++14 wrapper for [EJDB](https://ejdb.org/), a document-store database similar to MongoDB, using BSON as its data and query format.
 Unlike MongoDB however, it is used solely as a library from a variety of languages and environments.
 ejpp wraps the C API provided by EJDB for a more convenient experience with modern C++.
 The main class uses RAII to give automatic exception safety, by way of closing and syncing open databases on destruction.
@@ -44,12 +44,12 @@ BSON data is consumed and produced as an `std::vector<char>` making it straight-
 
 ## <a name="jbson"></a>jbson
 
-[jbson](http://chrismanning.github.io/jbson) is a BSON and JSON library for C++14.
+[jbson](https://chrismanning.github.io/jbson) is a BSON and JSON library for C++14.
 BSON is a binary data format created for MongoDB and based on the purely textual JSON.
 jbson uses template metaprogramming to provide a simple yet flexible API for building BSON data, whether from a Unicode JSON string, or C++ variables; and accessing or modifying existing BSON data.
 Though neither depends on the other, jbson can work closely with the above mentioned ejpp, to provide a safe and efficient means to build queries and data, and to interpret data returned from queries or document loads.
 
-Also part of jbson is an implementation of [JSONPath](http://goessner.net/articles/JsonPath/), which functions in a similar manner with JSON (or in this case BSON) as XPath does with XML.
+Also part of jbson is an implementation of [JSONPath](https://goessner.net/articles/JsonPath/), which functions in a similar manner with JSON (or in this case BSON) as XPath does with XML.
 The implementation of JSONPath allows data transformations and even filtering with boolean expressions on BSON data so that complex documents can be more easily digested, and superfluous data ignored.
 
 ## <a name="executors"></a>Executors
@@ -68,13 +68,13 @@ What sets it apart is its extensibility and configurability via C++ plugins, JSO
 The plugin APIs are simple, yet capable ways to either add something to the existing systems (eg. output devices, input formats), or to "listen" for certain events to provide an auxiliary service (eg. Last.fm scrobbling, song info fetching).
 This is achieved by a thread-safe mechanism similar to Qt's signals & slots system, though without the need for an additional preprocessor. These signals can utilise `shared_ptr`s & `weak_ptr`s to provide automatic disconnection of a member function (or any other that throws `bad_weak_ptr`) when an object has expired.
 
-Audio output is done via a custom [Asio](http://think-async.com/Asio) (aka Boost.Asio) interface, which allows both synchronous and asynchronous usage for low latency I/O.
-The music library is implemented using [EJDB](http://ejdb.org/) and [ejpp](#ejpp).
+Audio output is done via a custom [Asio](https://think-async.com/Asio) (aka Boost.Asio) interface, which allows both synchronous and asynchronous usage for low latency I/O.
+The music library is implemented using [EJDB](https://ejdb.org/) and [ejpp](#ejpp).
 Using JSON (or BSON) with ejpp is a huge improvement to usability as it allows easy query declarations in QML (or directly in C++) so that the library can be browsed precisely how a user desires.
 
 # <a name="uni"></a>University Assignments
 
-The following are projects that were assessed as part of my degree in Computer Science at [De Montfort University](http://www.dmu.ac.uk/).
+The following are projects that were assessed as part of my degree in Computer Science at [De Montfort University](https://www.dmu.ac.uk/).
 
 With thanks to De Montfort University.
 
@@ -98,13 +98,13 @@ See the [final report]({{site.url}}/images/ack_final_report.pdf) for full detail
 ## <a name="nft"></a>nft
 
 [nft](https://github.com/chrismanning/nft) was the result of a university assignment to create a network file transfer application using a socket API and a client-server architecture.
-The assignment allowed free choice of programming language, as long as the language had a socket-base network API, and it was then decided to be written in the [D Programming Language](http://dlang.org/).
+The assignment allowed free choice of programming language, as long as the language had a socket-base network API, and it was then decided to be written in the [D Programming Language](https://dlang.org/).
 It takes advantage of D's native and default thread-local storage facilities to avoid most need for explicit synchronisation.
 The assignment report, which was submitted along with an application demonstration and a brief walk through the code, can be viewed or downloaded as a PDF from [here]({{ site.url }}/images/nft.pdf). The code itself was not directly graded.
 
 ## <a name="robotics"></a>Mobile Robotics Assignment
 
-The assignment for the Mobile Robotics module was to create a controller for a particular type of robot using [ARIA](http://robots.mobilerobots.com/wiki/ARIA).
+The assignment for the Mobile Robotics module was to create a controller for a particular type of robot using [ARIA](https://robots.mobilerobots.com/wiki/ARIA).
 My submission provided the following behaviours using a subsumption architecture: obstacle avoidance, edge following, wandering, and mapping.
 Also include was a Qt client for graphically viewing a map as it was assembled. See [code]({{ site.url }}/images/mobile_robots_assignment.zip).
 
