@@ -19,15 +19,15 @@ title: Projects
 </style>
 <div class="pure-menu pure-menu-open" id="toc">
     <ul>
-        <li><a class="pure-menu-heading" href="#projects">Personal Projects</a></li>
-        <li><a href="#ejpp">ejpp</a></li>
-        <li><a href="#jbson">jbson</a></li>
-        <li><a href="#executors">Executors</a></li>
-        <li><a href="#melo">Melosic</a></li>
-        <li><a class="pure-menu-heading" href="#uni">University Projects</a></li>
-        <li><a href="#ddvs">Dynamic Data Structure Visualisation</a></li>
-        <li><a href="#nft">nft</a></li>
-        <li><a href="#robotics">Mobile Robotics Assignment</a></li>
+        <li class="pure-menu-heading"><a class="pure-menu-link" href="#projects">Personal Projects</a></li>
+        <li class="pure-menu-item"><a class="pure-menu-link" href="#ejpp">ejpp</a></li>
+        <li class="pure-menu-item"><a class="pure-menu-link" href="#jbson">jbson</a></li>
+        <li class="pure-menu-item"><a class="pure-menu-link" href="#executors">Executors</a></li>
+        <li class="pure-menu-item"><a class="pure-menu-link" href="#melo">Melosic</a></li>
+        <li class="pure-menu-heading"><a class="pure-menu-link" href="#uni">University Projects</a></li>
+        <li class="pure-menu-item"><a class="pure-menu-link" href="#ddvs">Dynamic Data Structure Visualisation</a></li>
+        <li class="pure-menu-item"><a class="pure-menu-link" href="#nft">nft</a></li>
+        <li class="pure-menu-item"><a class="pure-menu-link" href="#robotics">Mobile Robotics Assignment</a></li>
     </ul>
 </div>
 

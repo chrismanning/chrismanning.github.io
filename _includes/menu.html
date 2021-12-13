@@ -5,12 +5,10 @@
 </a>
 <div id="menu">
     <div class="pure-menu pure-menu-open">
-
-        <ul>
-            <li {% if page.title contains "About Me" %}class="pure-menu-selected"{% endif %}><a href="{{ site.url }}/">About Me</a></li>
-            <!-- <li {% if page.title contains "CV" %}class="pure-menu-selected"{% endif %}><a href="{{ site.url }}/cv">CV</a></li> -->
-            <li {% if page.title contains "Projects" %}class="pure-menu-selected"{% endif %}><a href="{{ site.url }}/projects">Projects</a></li>
-            <li {% if page.title contains "Contact" %}class="pure-menu-selected"{% endif %}><a href="{{ site.url }}/contact">Contact</a></li>
+        <ul class="pure-menu-list">
+            <li {% if page.title contains "About Me" %}class="pure-menu-item pure-menu-selected"{% else %}class="pure-menu-item"{% endif %}><a href="{{ site.url }}/">About Me</a></li>
+            <li {% if page.title contains "Projects" %}class="pure-menu-item pure-menu-selected"{% else %}class="pure-menu-item"{% endif %}><a href="{{ site.url }}/projects">Projects</a></li>
+            <li {% if page.title contains "Contact" %}class="pure-menu-item pure-menu-selected"{% else %}class="pure-menu-item"{% endif %}><a href="{{ site.url }}/contact">Contact</a></li>
         </ul>
     </div>
 </div>
