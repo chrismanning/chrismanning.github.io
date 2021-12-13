@@ -17,8 +17,8 @@ title: Projects
         }
     }
 </style>
-<div class="pure-menu pure-menu-open" id="toc">
-    <ul>
+<div class="pure-menu" id="toc">
+    <ul class="pure-menu-list">
         <li class="pure-menu-heading"><a class="pure-menu-link" href="#projects">Personal Projects</a></li>
         <li class="pure-menu-item"><a class="pure-menu-link" href="#ejpp">ejpp</a></li>
         <li class="pure-menu-item"><a class="pure-menu-link" href="#jbson">jbson</a></li>
